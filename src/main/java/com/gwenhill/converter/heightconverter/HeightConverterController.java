@@ -13,21 +13,21 @@ public class HeightConverterController {
     @FXML private TextField inchesField;
     @FXML private TextField cmField;
     @FXML private TextField inchesOutput;
-    @FXML private AnchorPane rootPane;
+    @FXML private Button convertButton;
 
     @FXML private Button clearButton;
     @FXML private Button exitButton;
 
-    @FXML
-    public void initialize() {
-        // Clip the AnchorPane to a rounded rectangle
-        Rectangle clip = new Rectangle();
-        clip.widthProperty().bind(rootPane.widthProperty());
-        clip.heightProperty().bind(rootPane.heightProperty());
-        clip.setArcWidth(40);
-        clip.setArcHeight(40);
-        rootPane.setClip(clip);
-    }
+//    @FXML
+//    public void initialize() {
+//        // Clip the AnchorPane to a rounded rectangle
+//        Rectangle clip = new Rectangle();
+//        clip.widthProperty().bind(rootPane.widthProperty());
+//        clip.heightProperty().bind(rootPane.heightProperty());
+//        clip.setArcWidth(40);
+//        clip.setArcHeight(40);
+//        rootPane.setClip(clip);
+//    }
 
     @FXML
     private void handleClear() {
