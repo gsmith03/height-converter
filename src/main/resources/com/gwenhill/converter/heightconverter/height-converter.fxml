@@ -32,7 +32,7 @@
 
 
      <!--Height Converter Title -->
-     <Label alignment="CENTER" contentDisplay="CENTER" text="HEIGHT CONVERTER" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.hgrow="NEVER">
+     <Label alignment="CENTER" contentDisplay="CENTER" text="HEIGHT CONVERTER" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" maxWidth="-Infinity" style="-fx-alignment: center;">
         <font>
            <Font name="Verdana Bold" size="30.0" />
         </font>
